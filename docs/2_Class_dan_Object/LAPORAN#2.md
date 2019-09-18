@@ -29,7 +29,7 @@ Pada pertemuan sebelumnya anda sudah diberikan banyak penjelasan secara semantic
 
 Setelah kita memahami secara semantic pengertian dari class dan object, maka langkah selanjutnya adalah bagaimana cara melakukan implementasi class pada pendekatan Object Oriented Programming, terutama pada bahasa pemrograman java. Berikut adalah sintaks dari deklarasi class pada pemrograman java : 
 
- ![Gambar Materi](m1.PNG)
+ ![Gambar Materi](img/m1.PNG)
  
  Aturan penulisan class adalah sebagai berikut: 
  
@@ -43,13 +43,13 @@ Setelah kita memahami secara semantic pengertian dari class dan object, maka lan
 
 Contoh deklarasi class: 
 
- ![Gambar Materi](m2.PNG)
+ ![Gambar Materi](img/m2.PNG)
 
 **2.2 Attribute** 
 
  Untuk melakukan pendeklarasian attribute dapat dilakukan dengan sintaks sebagai berikut: 
 
-  ![Gambar Materi](m3.PNG)
+  ![Gambar Materi](img/m3.PNG)
 
 Aturan penulisan atribut adalah sebagai berikut: 
 
@@ -61,7 +61,7 @@ Aturan penulisan atribut adalah sebagai berikut:
 
 Contoh deklarasi ***attribute***: 
 
-  ![Gambar Materi](m5.PNG)
+  ![Gambar Materi](img/m5.PNG)
 
 Nb : attribute yang dituliskan dengan **huruf** **tebal**. 
  
@@ -71,11 +71,11 @@ Method adalah suatu blok dari program yang berisi kode program nama dan properti
  
 Deklarasi method dapat dilakukan dengan sintaks sebagai berikut: 
 
-  ![Gambar Materi](m6.PNG)
+  ![Gambar Materi](img/m6.PNG)
 
   Contoh method dengan tipe void dan method yang mengembalikan nilai (*return*) 
 
-  ![Gambar Materi](m7.PNG)
+  ![Gambar Materi](img/m7.PNG)
 
 Aturan penulisan method adalah sebagai berikut: 
 
@@ -87,17 +87,17 @@ Aturan penulisan method adalah sebagai berikut:
 
 Contoh deklarasi method: 
 
-  ![Gambar Materi](m8.PNG)
+  ![Gambar Materi](img/m8.PNG)
 
 **2.4 Object**  
 
 Setelah Class dibuat, langkah selanjutnya adalah membuat Object. Proses pembuatan Object dari suatu Class disebut instansiasi. Format dasar instansiasi adalah sebagai berikut:
 
-  ![Gambar Materi](m9.PNG)
+  ![Gambar Materi](img/m9.PNG)
 
 Proses membuat objek dari suatu class adalah INSTANSIASI, dan ditandai kata kunci new. Aturan penulisan objek adalah sama seperti penulisan atribut. Contoh : 
 
-  ![Gambar Materi](m10.PNG)
+  ![Gambar Materi](img/m10.PNG)
 
 ***2.5 Try – catch*** 
 
@@ -115,21 +115,21 @@ Untuk melihat hasil dari implementasi dari try-catch, maka kita perlu melakukan 
 
 Tanpa menggunakan try-catch : 
 
-  ![Gambar Materi](m11.PNG)
+  ![Gambar Materi](img/m11.PNG)
 
   Hasil : 
 
-![Gambar Materi](m12.PNG)
+![Gambar Materi](img/m12.PNG)
 
 Berbeda bila kita kurung operasi pembagian nol diatas dengan try - catch, maka hasil eksekusi program akan sedikit berbeda: 
 
-![Gambar Materi](m13.PNG)
+![Gambar Materi](img/m13.PNG)
 
-![Gambar Materi](m14.PNG)
+![Gambar Materi](img/m14.PNG)
 
 Hasil : 
 
-![Gambar Materi](m15.PNG)
+![Gambar Materi](img/m15.PNG)
 
 **3. Unified Modeling Language ( UML )** 
 
@@ -138,7 +138,7 @@ Hasil :
     Class diagram adalah sebuah class yang menggambarkan struktur dan penjelasan class, paket, dan objek serta hubungan satu sama lain seperti pewarisan, asosiasi, dan lainlain. Class diagram juga menjelaskan hubungan antar class dalam sebuah sistem yang sedang dibuat dan bagaimana caranya agar mereka saling berkolaborasi untuk mencapai sebuah tujuan. Class juga memiliki 3 area pokok (utama) yaitu : nama,atribut,dan operasi. Nama berfungsi untuk member identitas pada sebuah kelas, atribut fungsinya adalah untuk member karakteristik pada data yang dimiliki suatu objek di dalam kelas, sedangkan 
     operasi fungsinya adalah memberikan sebuah fungsi ke sebuah objek. Berikut ini merupakan contoh dari class diagram:
  
-![Gambar Materi](m16.PNG)
+![Gambar Materi](img/m16.PNG)
 
 **4. Percobaan**
 
@@ -166,7 +166,7 @@ Dalam suatu perusahaan salah satu data yang diolah adalah data karyawan. Setiap 
 
 
 
-1.    ![UML Data Karyawan dan Mahasiswa](1.PNG)
+1.    ![UML Data Karyawan dan Mahasiswa](img/1.PNG)
 
 2.class Karyawan dan class Mahasiswa
 
@@ -183,7 +183,7 @@ Studi Kasus 2:
 
 Perhatikan class diagram dibawah ini. Buatlah program berdasarkan class diagram tersebut!
 
-![Soal class diagram](UMLMahasiswa.PNG)
+![Soal class diagram](img/UMLMahasiswa.PNG)
 
 Langkah kerja: 
 
@@ -195,12 +195,12 @@ Langkah kerja:
 
 
 
-![Soal Mahasiswa](SoalMahasiswa.PNG)
+![Soal Mahasiswa](img/SoalMahasiswa.PNG)
 
 3. Simpan dengan nama file Mahasiswa.java. 
 4. Untuk dapat mengakses anggota-anggota dari suatu obyek, maka harus dibuat instance dari class  tersebut terlebih dahulu. Berikut ini adalah cara pengaksesan anggota- anggota dari class Mahasiswa dengan membuka file baru kemudian ketikkan kode program berikut:
 
-![Soal Mahasiswa](SoalMahasiswaMain.PNG)
+![Soal Mahasiswa](img/SoalMahasiswaMain.PNG)
 
 5. Simpan file dengan TestMahasiswa.java 
 
@@ -223,13 +223,13 @@ Langkah kerja:
 
 **Jawaban:**
 
-![Deklarasi](deklarasi.PNG)
+![Deklarasi](img/deklarasi.PNG)
 
 8. Jelaskan pada bagian mana proses pendeklarasian method pada program diatas! 
 
 **Jawaban:**
 
-![Deklarasi](deklarasi2.PNG)
+![Deklarasi](img/deklarasi2.PNG)
 
 9. Berapa banyak objek yang di instansiasi pada program diatas!
 
@@ -253,7 +253,7 @@ mengisi data nim
 
 **Jawaban:**
 
-![Hasil MahasiswaMain1841720146Bagus](MahasiswaMain1841720146Bagus.PNG)
+![Hasil MahasiswaMain1841720146Bagus](img/MahasiswaMain1841720146Bagus.PNG)
 
 
 **4.3 Percobaan 3: Menulis method yang memiliki argument/parameter dan memiliki return** 
@@ -268,7 +268,7 @@ Langkah kerja:
 
 
 
-![Hasil Barang1841720146Bagus](SoalBarang.PNG)
+![Hasil Barang1841720146Bagus](img/SoalBarang.PNG)
 
 [ini link ke kode program Barang1841720146Bagus](../../src/2_Class_dan_Object/Barang1841720146Bagus.java)
 
@@ -277,11 +277,11 @@ Langkah kerja:
 
 3. Simpan dengan nama file Barang.java 
 
-![Hasil Barang1841720146Bagus](Barang1841720146Bagus.PNG)
+![Hasil Barang1841720146Bagus](img/Barang1841720146Bagus.PNG)
 
 4. Untuk dapat mengakses anggota-anggota dari suatu obyek, maka harus dibuat instance dari class tersebut terlebih dahulu. Berikut ini adalah cara pengaksesan anggota- anggota dari class Barang dengan membuka file baru kemudian ketikkan kode program berikut: 
 
-![Hasil BarangMain1841720146Bagus](SoalBarangMain.PNG)
+![Hasil BarangMain1841720146Bagus](img/SoalBarangMain.PNG)
 
 
 
@@ -294,11 +294,11 @@ Langkah kerja:
 
 **JAWABAN**
 
-![Hasil Barang1841720146Bagus](Barang1841720146Bagus.PNG)
+![Hasil Barang1841720146Bagus](img/Barang1841720146Bagus.PNG)
 
 [ini link ke kode program Barang1841720146Bagus](../../src/2_Class_dan_Object/Barang1841720146Bagus.java)
 
-![Hasil BarangMain1841720146Bagus](BarangMain1841720146Bagus.PNG)
+![Hasil BarangMain1841720146Bagus](img/BarangMain1841720146Bagus.PNG)
 
 [ini link ke kode program BarangMain1841720146Bagus](../../src/2_Class_dan_Object/BarangMain1841720146Bagus.java)
 
@@ -335,11 +335,11 @@ Penjelasan:
 **JAWABAN:**
 
 
-![Hasil Sewa1841720146Bagus](Sewa1841720146Bagus.PNG)
+![Hasil Sewa1841720146Bagus](img/Sewa1841720146Bagus.PNG)
 
 [ini link ke kode program Sewa1841720146Bagus](../../src/2_Class_dan_Object/Sewa1841720146Bagus.java)
 
-![Hasil SewaMain1841720146Bagus](SewaMain1841720146Bagus.PNG)
+![Hasil SewaMain1841720146Bagus](img/SewaMain1841720146Bagus.PNG)
 
 [ini link ke kode program SewaMain1841720146Bagus](../../src/2_Class_dan_Object/SewaMain1841720146Bagus.java)
 
@@ -351,11 +351,11 @@ Penjelasan:
 
 **JAWABAN:**
 
-![Hasil Lingkaran1841720146Bagus](Lingkaran1841720146Bagus.PNG)
+![Hasil Lingkaran1841720146Bagus](img/Lingkaran1841720146Bagus.PNG)
 
 [ini link ke kode program Lingkaran1841720146Bagus](../../src/2_Class_dan_Object/Lingkaran1841720146Bagus.java)
 
-![Hasil LingkaranMain1841720146Bagus](LingkaranMain1841720146Bagus.PNG)
+![Hasil LingkaranMain1841720146Bagus](img/LingkaranMain1841720146Bagus.PNG)
 
 [ini link ke kode program Lingkaran1841720146Bagus](../../src/2_Class_dan_Object/LingkaranMain1841720146Bagus.java)
 
@@ -363,7 +363,7 @@ Penjelasan:
 4. Buatlah program sesuai dengan class diagram berikut ini:
 
 
-![Hasil barang1841720146Bagus](Tugasbarang.PNG)
+![Hasil barang1841720146Bagus](img/Tugasbarang.PNG)
 
 
 Deskripsi / Penjelasan : 
@@ -381,11 +381,11 @@ Deskripsi / Penjelasan :
 
 **JAWABAN:**
 
-![Hasil Penjualan1841720146Bagus](Penjualan1841720146Bagus.PNG)
+![Hasil Penjualan1841720146Bagus](img/Penjualan1841720146Bagus.PNG)
 
 [ini link ke kode program Penjualan1841720146Bagus](../../src/2_Class_dan_Object/Penjualan1841720146Bagus.java)
 
-![Hasil PenjualanMain1841720146Bagus](PenjualanMain1841720146Bagus.PNG)
+![Hasil PenjualanMain1841720146Bagus](img/PenjualanMain1841720146Bagus.PNG)
 
 [ini link ke kode program PenjualanMain1841720146Bagus](../../src/2_Class_dan_Object/PenjualanMain1841720146Bagus.java)
 
