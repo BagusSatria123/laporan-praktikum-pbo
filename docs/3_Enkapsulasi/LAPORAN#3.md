@@ -59,7 +59,7 @@ Terdapat 2 tipe modifier di java yaitu :
 
 **Tabel 1. 1 Detail Access Modifier** 
 
- ![Gambar tabel](tabel.PNG)
+ ![Gambar tabel](img/tabel.PNG)
 
  4. Getter  dan Setter 
 
@@ -69,7 +69,7 @@ Terdapat 2 tipe modifier di java yaitu :
 
 Secara umum bentuk UML class diagram adalah seperti pada Gambar .. 
 
-![Gambar UMLMeal](UMLMeal.PNG)
+![Gambar UMLMeal](img/UMLMeal.PNG)
 
 Keterangan : 
 
@@ -105,19 +105,19 @@ Didalam percobaan enkapsulasi, buatlah class Motor yang memiliki atribut kecepat
 
 3. Ketikkan kode class Motor dibawah ini. 
 
- ![Gambarsoalmotor1](soalmotor1.PNG)
+ ![Gambarsoalmotor1](img/soalmotor1.PNG)
 
  bentuk UML class diagram class Motor adalah sebagai berikut: 
 
- ![Gambar umlmotor](umlmotor.PNG)
+ ![Gambar umlmotor](img/umlmotor.PNG)
 
  4. Kemudian buat class MotorDemo, ketikkan kode berikut ini. 
 
- ![Gambar motordemo](motordemo.PNG)
+ ![Gambar motordemo](img/motordemo.PNG)
 
  5. Hasilnya adalah sebagai berikut: 
 
-  ![Contoh runmotor](runmotor.PNG)
+  ![Contoh runmotor](img/runmotor.PNG)
 
   [ini link ke kode program Motor1841720146Bagus](../../src/3_Enkapsulasi/Motor1841720146Bagus.java)
 
@@ -144,7 +144,7 @@ Pada percobaan ini akan digunakan access modifier untuk memperbaiki cara kerja c
 
 1. Ubah cara kerja class motor sesuai dengan UML class diagram berikut. 
 
- ![Gambar UML Motor percobaan 2](umlmotor2.PNG)
+ ![Gambar UML Motor percobaan 2](img/umlmotor2.PNG)
  
  2. Berdasarkan UML class diagram tersebut maka class Motor terdapat perubahan, yaitu: 
 
@@ -154,26 +154,26 @@ Pada percobaan ini akan digunakan access modifier untuk memperbaiki cara kerja c
 
 Implementasi class Motor adalah sebagai berikut: 
 
- ![Gambar Motor percobaan 2](soalmotor2.PNG)
+ ![Gambar Motor percobaan 2](img/soalmotor2.PNG)
 
  3. Kemudian pada class MotorDemo, ubah code menjadi seperti berikut:
 
-  ![Gambar Motor Demo](motordemo2.PNG)
+  ![Gambar Motor Demo](img/motordemo2.PNG)
 
   4. Hasilnya dari class MotorDemo adalah sebagai berikut: 
 
   Dari percobaan diatas, dapat kita amati sekarang atribut kecepatan tidak bisa diakses oleh pengguna dan diganti nilainya secara sembarangan. Bahkan ketika mencoba menambah kecepatan saat posisi kontak masih OFF, maka akan muncul notifikasi bahwa mesin OFF. Untuk mendapatkan kecepatan yang diinginkan, maka harus dilakukan secara gradual, yaitu dengan memanggil method tambahKecepatan() beberapa kali. Hal ini mirip seperti saat kita mengendarai motor.  
 
   
-  ![Gambar motordemo2](motordemo2.PNG)
+  ![Gambar motordemo2](img/motordemo2.PNG)
 
   **JAWABAN**
 
-  ![Gambar motorawal](motorawal.PNG)
+  ![Gambar motorawal](img/motorawal.PNG)
 
-  ![Gambar motorawal2](motorawal2.PNG)
+  ![Gambar motorawal2](img/motorawal2.PNG)
 
- ![Gambar motorawaldemo](motorawaldemo.PNG)
+ ![Gambar motorawaldemo](img/motorawaldemo.PNG)
 
 
 
@@ -193,11 +193,11 @@ Implementasi class Motor adalah sebagai berikut:
 
 3. Ubah class Motor sehingga kecepatan maksimalnya adalah 100! 
 
-![Gambar motorakhir](motorakhir.PNG)
+![Gambar motorakhir](img/motorakhir.PNG)
 
-![Gambar motorakhir2](motorakhir2.PNG)
+![Gambar motorakhir2](img/motorakhir2.PNG)
 
-![Gambar motorakhirdemo](motorakhirdemo.PNG)
+![Gambar motorakhirdemo](img/motorakhirdemo.PNG)
 
 
  [ini link ke kode program Motor1841720146Bagus](../../src/3_Enkapsulasi/Motor1841720146Bagus.java)
@@ -210,7 +210,7 @@ Misalkan di sebuah sistem informasi koperasi, terdapat class Anggota. Anggota me
 
 1. Berikut ini UML class buatlah class Mahasiswa pada program:
 
-![Gambar umlgetter](umlgetter.PNG)
+![Gambar umlgetter](img/umlgetter.PNG)
 
 2. Sama dengan percobaan 1 untuk membuat project baru 
 
@@ -220,23 +220,23 @@ b. Buat class Anggota. Klik kanan pada package koperasigettersetter – New – 
 
 c. Ketikkan kode class Anggota dibawah ini. 
 
-![Gambar anggotawarnawarni](anggotawarnawarni.PNG)
+![Gambar anggotawarnawarni](img/anggotawarnawarni.PNG)
 
 Jika diperhatikan pada class Anggota, atribut nama dan alamat memili masing-masing 1 getter dan setter. Sedangkan atribut simpanan hanya memiliki getSimpanan() saja, karena seperti tujuan awal, atribut simpanan akan berubah nilainya jika melakukan transaksi setor() dan pinjam/tarik().
 
 3. Selanjutnya buatlah class KoperasiDemo untuk mencoba class Anggota.
 
-![Gambar soalkoperasi](soalkoperasi.PNG)
+![Gambar soalkoperasi](img/soalkoperasi.PNG)
 
 4. Hasil dari main method pada langkah ketiga adalah 
-![Gambar soalhasilkoperasi](soalhasilkoperasi.PNG)
+![Gambar soalhasilkoperasi](img/soalhasilkoperasi.PNG)
 
 Dapat dilihat pada hasil percobaan diatas, untuk mengubah simpanan tidak dilakukan secara langsung dengan mengubah atribut simpanan, melainkan melalui method setor() dan pinjam(). Untuk menampilkan nama pun harus melalui method getNama(), dan untuk menampilkan simpanan melalui getSimpanan().  
 
 **Jawaban**
-![Gambar koperasiAwal](koperasiAwal.PNG)
+![Gambar koperasiAwal](img/koperasiAwal.PNG)
 
-![Gambar Koperasiawaldemo](Koperasiawaldemo.PNG)
+![Gambar Koperasiawaldemo](img/Koperasiawaldemo.PNG)
 
  [ini link ke kode program Anggota1841720146Bagus](../../src/3_Enkapsulasi/Anggota1841720146Bagus.java)
 
@@ -246,27 +246,27 @@ Dapat dilihat pada hasil percobaan diatas, untuk mengubah simpanan tidak dilakuk
 
 1. Langkah pertama percobaan 4 adalah ubah class KoperasiDemo seperti berikut 
 
-![Gambar koperasiakhirdemo](koperasiakhirdemo.PNG)
+![Gambar koperasiakhirdemo](img/koperasiakhirdemo.PNG)
 
 2. Hasil dari program tersebut adalah sebagai berikut 
 
-![Gambar hasilakhirkoperasidemo](hasilakhirkoperasidemo.PNG)
+![Gambar hasilakhirkoperasidemo](img/hasilakhirkoperasidemo.PNG)
 
 Dapat dilihat hasil running program, ketika dilakukan pemanggilan method getNama() hasilnya hal ini terjadi  karena atribut nama belum diset nilai defaultnya. Hal ini dapat ditangani dengan membuat kontruktor. 
 
 3. Ubah class Anggota menjadi seperti berikut 
 
-![Gambar Anggotaendakhir](Anggotaendakhir.PNG)
+![Gambar Anggotaendakhir](img/Anggotaendakhir.PNG)
 
 Pada class Anggota dibuat kontruktor dengan access modifier default yang memiliki 2 parameter nama dan alamat. Dan didalam konstruktor tersebut dipastikan nilai simpanan untuk pertama kali adalah Rp. 0. 
 
 4. Selanjutnya ubah class KoperasiDemo sebagai berikut 
 
-![Gambar koperasiend](koperasiend.PNG)
+![Gambar koperasiend](img/koperasiend.PNG)
 
 5. Hasil dari program tersebut adalah sebagai berikut 
 
-![Gambar hasilendkoperasi](hasilendkoperasi.PNG)
+![Gambar hasilendkoperasi](img/hasilendkoperasi.PNG)
 
 Setelah menambah konstruktor pada class Anggoata maka atribut nama dan alamat secara otomatis harus diset terlebih dahulu dengan melakukan passing parameter jika melakukan instansiasi class Anggota. Hal ini biasa dilakukan untuk atribut yang membutuhkan nilai yang spesifik. Jika tidak membutuhkan nilai spesifik dalam konstruktor tidak perlu parameter. Contohnya simpanan untuk anggota baru diset 0, maka simpanan tidak perlu untuk dijadikan parameter pada konstruktor. 
 
@@ -340,11 +340,11 @@ Dari percobaan diatas, telah dipelajari kosep dari enkapsulasi, kontruktor, acce
 **5. Tugas** 
 1. Cobalah program dibawah ini dan tuliskan hasil outputnya 
 
- ![Gambar soalencap](soalencap.PNG)
+ ![Gambar soalencap](img/soalencap.PNG)
 
- ![Gambar EncapAwal](EncapAwal.PNG)
+ ![Gambar EncapAwal](img/EncapAwal.PNG)
  
- ![Gambar Encapdemoawal](Encapdemoawal.PNG)
+ ![Gambar Encapdemoawal](img/Encapdemoawal.PNG)
 
   [ini link ke kode program Encap1841720146Bagus](../../src/3_Enkapsulasi/Encap1841720146Bagus.java)
 
@@ -360,9 +360,9 @@ Jawaban:karena di method setAge age = 30 itu di else tulisan age = newAge jadi s
 
 Jawaban:
 
-![Gambar encapakhir](encapakhir.PNG)
+![Gambar encapakhir](img/encapakhir.PNG)
 
-![Gambar encapdemoakhir](encapdemoakhir.PNG)
+![Gambar encapdemoakhir](img/encapdemoakhir.PNG)
 
  [ini link ke kode program Encap1841720146Bagus](../../src/3_Enkapsulasi/Encap1841720146Bagus.java)
 
@@ -373,10 +373,10 @@ Jawaban:
  **Jawaban**
 
  
-![Gambar Koperasitugasclass](Koperasitugasclass.PNG)
+![Gambar Koperasitugasclass](img/Koperasitugasclass.PNG)
 
 
-![Gambar koperasitugasmain](koperasitugasmain.PNG)
+![Gambar koperasitugasmain](img/koperasitugasmain.PNG)
 
 [ini link ke kode program AnggotaNew1841720146Bagus](../../src/3_Enkapsulasi/AnggotaNew1841720146Bagus.java)
 
@@ -387,10 +387,10 @@ Jawaban:
 
 **jawaban**
 
-![Gambar koperasiTugas2](koperasiTugas2.PNG)
+![Gambar koperasiTugas2](img/koperasiTugas2.PNG)
 
 
-![GambarkoperasiTugas2Main](koperasiTugas2Main.PNG)
+![GambarkoperasiTugas2Main](img/koperasiTugas2Main.PNG)
 
 [ini link ke kode program AnggotaNew1841720146Bagus](../../src/3_Enkapsulasi/AnggotaNew1841720146Bagus.java)
 
@@ -402,9 +402,9 @@ Jawaban:
 
 **jawaban**
 
-![Gambar koperasimodifclass](koperasimodifclass.PNG)
+![Gambar koperasimodifclass](img/koperasimodifclass.PNG)
 
-![Gambar koperasimodif](koperasimodif.PNG)
+![Gambar koperasimodif](img/koperasimodif.PNG)
 
 
 [ini link ke kode program AnggotaNew1841720146Bagus](../../src/3_Enkapsulasi/AnggotaNew1841720146Bagus.java)
