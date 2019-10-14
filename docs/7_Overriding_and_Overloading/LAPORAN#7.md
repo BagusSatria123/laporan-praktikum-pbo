@@ -166,7 +166,7 @@ ________________________________________________________
 
 ![Gambar ini adalah Perkalianku1841720146bagus](img/b1.PNG)
 
-[ini link ke kode program Perkalianku1841720146bagus](../../src/7_Overriding_dan_Overloading/perkalihanku/Perkalianku1841720146bagus.java)
+[ini link ke kode program Perkalianku1841720146Bagus](../../src/7_Overriding_dan_Overloading/perkalihanku/Perkalianku1841720146Bagus.java)
 
 ![Gambar ini adalah PerkaliankuMain1841720146Bagus](img/b2.PNG)
 
