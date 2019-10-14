@@ -107,24 +107,24 @@ Untuk kasus contoh berikut ini, terdapat tiga kelas, yaitu Karyawan, Manager, da
 
 **Hasil Dari Percobaan 1** 
 
-![Gambar ini adalah Karyawan1841720146Bagus](img/a1.PNG)
+![Gambar ini adalah Karyawan1841720146Bagus](img/A1.PNG)
 
 [ini link ke kode program Karyawan1841720146Bagus](../../src/7_Overriding_dan_Overloading/percobaan1/Karyawan1841720146Bagus.java)
 
-![Gambar ini adalah Manager1841720146Bagus](img/a2.PNG)
+![Gambar ini adalah Manager1841720146Bagus](img/A2.PNG)
 
 [ini link ke kode program Manager1841720146Bagus](../../src/7_Overriding_dan_Overloading/percobaan1/Manager1841720146Bagus.java)
 
-![Gambar ini adalah Staff1841720146Bagus](img/a3.PNG)
+![Gambar ini adalah Staff1841720146Bagus](img/A3.PNG)
 
 [ini link ke kode program Staff1841720146Bagus](../../src/7_Overriding_dan_Overloading/percobaan1/Staff1841720146Bagus.java)
 
-![Gambar ini adalah utamaMain1841720146Bagus](img/a4.PNG)
+![Gambar ini adalah utamaMain1841720146Bagus](img/A4.PNG)
 
 [ini link ke kode program utamaMain1841720146Bagus](../../src/7_Overriding_dan_Overloading/percobaan1/utamaMain1841720146Bagus.java)
 
 
-![Gambar ini adalah utamaMain1841720146Bagus](img/a5.PNG)
+![Gambar ini adalah utamaMain1841720146Bagus](img/A5.PNG)
 
 **4.Latihan**
 
@@ -216,7 +216,7 @@ ________________________________________________________
         System.out.println("Ikan bisa berenang");
 
         }
-        
+
        }
 
      public class Piranha1841720146Bagus extends Ikan1841720146Bagus{
