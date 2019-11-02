@@ -14,9 +14,9 @@ public class Testertwo1841720146Bagus {
         PermanentEmployee1941720146Bagus pEmp = new PermanentEmployee1941720146Bagus(500,"Dedik");
         Employee1841720146Bagus e;
         e = pEmp;
-        System.out.println(" "+e.getEmployeeInfo());
+        System.out.println(" "+e.getEmployeeInfoBagus());
         System.out.println("===========================");
-        System.out.println(" "+pEmp.getEmployeeInfo());
+        System.out.println(" "+pEmp.getEmployeeInfoBagus());
     }
     
 }

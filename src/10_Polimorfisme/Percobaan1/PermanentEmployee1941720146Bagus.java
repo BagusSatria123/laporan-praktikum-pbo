@@ -18,22 +18,22 @@ public class PermanentEmployee1941720146Bagus extends Employee1841720146Bagus im
         this.salary = salary;
     }
     
-    public int getSalary() {
+    public int getSalaryBagus() {
         return salary;
     }
     
-    public void setSalary(int salary) {
+    public void setSalaryBagus(int salary) {
         this.salary = salary;
     }
 
     @Override
-    public int getPaymentAmount() {
+    public int getPaymentAmountBagus() {
         return (int) (salary+0.05*salary);
     }
     
     @Override
-    public String getEmployeeInfo(){
-        String info = super.getEmployeeInfo()+"\n";
+    public String getEmployeeInfoBagus(){
+        String info = super.getEmployeeInfoBagus()+"\n";
         info += "Registered as permanent employee with salary : "+salary+"\n";
         return info;
     }

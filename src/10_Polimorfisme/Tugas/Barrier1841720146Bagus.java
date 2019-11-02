@@ -16,22 +16,22 @@ public class Barrier1841720146Bagus implements Destroyable1841720146Bagus{
         this.strength = strength;
     }
 
-    public void setStrength(int strength) {
+    public void setStrengthBagus(int strength) {
         this.strength = strength;
     }
 
-    public int getStrength() {
+    public int getStrengthBagus() {
         return strength;
     }
 
     @Override
-    public void destroyed() {
+    public void destroyedBagus() {
                 strength =  (strength-(int)(strength*0.1));
 
     }
    
-    public String getBarrierInfo(){
-        String info = "Barrier Strength : "+getStrength();
+    public String getBarrierInfoBagus(){
+        String info = "Barrier Strength : "+getStrengthBagus();
     return info;
     
     }

@@ -18,27 +18,27 @@ private String category;
         this.category = category;
     }
     
-     public int getKwh() {
+     public int getKwhBagus() {
         return kwh;
     }
 
-    public void setKwh(int kwh) {
+    public void setKwhBagus(int kwh) {
         this.kwh = kwh;
     }
     
-    public String getCategory() {
+    public String getCategoryBagus() {
         return category;
     }
 
-    public void setCategory(String category) {
+    public void setCategoryBagus(String category) {
         this.category = category;
     }
 
     @Override
-    public int getPaymentAmount() {
-            return kwh*getBasePrice();
+    public int getPaymentAmountBagus() {
+            return kwh*getBasePriceBagus();
     }
-    public int getBasePrice(){
+    public int getBasePriceBagus(){
         int bprice = 0;
         switch(category){
             case "R-1" : bprice = 100;break;
@@ -47,8 +47,8 @@ private String category;
     
     return bprice;
     }
-    public String getBillInfo(){
+    public String getBillInfoBagus(){
         return "KWH ="+kwh+"\n"+
-                "Category = "+category+"("+getBasePrice()+"per KWH)\n";
+                "Category = "+category+"("+getBasePriceBagus()+"per KWH)\n";
     }
 }

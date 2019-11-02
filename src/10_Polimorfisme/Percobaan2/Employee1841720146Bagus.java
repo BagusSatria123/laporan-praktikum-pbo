@@ -12,7 +12,7 @@ package pbominggu10_p1.bagus.polimorfisme;
 public class Employee1841720146Bagus {
     protected String name;
     
-    public String getEmployeeInfo(){
+    public String getEmployeeInfoBagus(){
         return "Name = "+name;
         
     }

@@ -16,7 +16,7 @@ public class jumpingZombie1841720146Bagus extends Zombie1841720146Bagus{
         
     }
     @Override
-    public void heal(){
+    public void healBagus(){
         switch(level){
             case 1:
                 health = (int) (health+health*0.3);
@@ -31,14 +31,14 @@ public class jumpingZombie1841720146Bagus extends Zombie1841720146Bagus{
     }
     
     @Override
-    public void destroyed() {
+    public void destroyedBagus() {
                 health =  (health-(int)(health*0.1));
 
     }
     
     @Override
-    public String getZombieInfo(){
-        String info = super.getZombieInfo()+"\n";
+    public String getZombieInfoBagus(){
+        String info = super.getZombieInfoBagus()+"\n";
         info += " Jumping zombie Data : \n"+" health = "+health+"\n"+"level ="+level+"\n";
     return info;
     

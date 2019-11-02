@@ -10,5 +10,5 @@ package pbominggu10_p1.bagus.polimorfisme;
  * @author ROG SERIES
  */
 public interface Payable1841720146Bagus {
-    public int getPaymentAmount();
+    public int getPaymentAmountBagus();
 }

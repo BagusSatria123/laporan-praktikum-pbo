@@ -17,24 +17,24 @@ public class InternshipEmployee1841720146Bagus extends Employee1841720146Bagus i
         this.length = length;
         
     }
-    public int getLength() {
+    public int getLengthBagus() {
         return length;
     }
 
-    public void setLength(int length) {
+    public void setLengthBagus(int length) {
         this.length = length;
     }
  
     @Override
     
-    public String getEmployeeInfo(){
-        String info = super.getEmployeeInfo()+"\n";
+    public String getEmployeeInfoBagus(){
+        String info = super.getEmployeeInfoBagus()+"\n";
         info += "Registered as internship employee for"+length+"month/s\n";
         return info;
     }
 
     @Override
-    public int getPaymentAmount() {
+    public int getPaymentAmountBagus() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

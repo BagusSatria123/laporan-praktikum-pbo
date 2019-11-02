@@ -11,19 +11,19 @@ package pbominggu10_p1.bagus.polimorfisme;
  */
 public class Owner1841720146Bagus {
     public void pay(Payable1841720146Bagus p){
-        System.out.println("Total payment = "+p.getPaymentAmount());
+        System.out.println("Total payment = "+p.getPaymentAmountBagus());
         if(p instanceof ElectricityBill1841720146Bagus){
             ElectricityBill1841720146Bagus eb = (ElectricityBill1841720146Bagus) p;
-            System.out.println(" "+eb.getBillInfo());
+            System.out.println(" "+eb.getBillInfoBagus());
         }
         else if(p instanceof PermanentEmployee1941720146Bagus){
             PermanentEmployee1941720146Bagus pe = (PermanentEmployee1941720146Bagus) p;
-            pe.getEmployeeInfo();
-            System.out.println(" "+pe.getEmployeeInfo());
+            pe.getEmployeeInfoBagus();
+            System.out.println(" "+pe.getEmployeeInfoBagus());
         }
     }
     public void showMyEmployee(Employee1841720146Bagus e){
-        System.out.println(" "+e.getEmployeeInfo());
+        System.out.println(" "+e.getEmployeeInfoBagus());
         if(e instanceof PermanentEmployee1941720146Bagus)
             System.out.println("You have to pay her/him monthly!!");
         else

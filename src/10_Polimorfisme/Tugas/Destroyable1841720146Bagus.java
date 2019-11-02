@@ -10,6 +10,6 @@ package pbomiggu10_tugas.bagus.polimorfisme;
  * @author ROG SERIES
  */
 public interface Destroyable1841720146Bagus {
-    public void destroyed();
+    public void destroyedBagus();
     
 }

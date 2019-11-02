@@ -13,18 +13,18 @@ public class Zombie1841720146Bagus implements Destroyable1841720146Bagus {
     protected int health;
     protected int level;
     
-    public void heal(){
+    public void healBagus(){
         System.out.println("the zombie heal standard");
     }   
     
-    public String getZombieInfo(){
+    public String getZombieInfoBagus(){
         String info = "Jenis Zombie : ";
         return info;
         
     }
 
     @Override
-    public void destroyed() {
+    public void destroyedBagus() {
 
     }
 }
