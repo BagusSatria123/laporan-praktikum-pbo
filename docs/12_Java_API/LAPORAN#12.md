@@ -116,7 +116,7 @@ public class CobaHashSet1841720146Bagus {
 
 ![Gambar CobaHashSet1841720146Bagus](img/a1.PNG)
 
-  [ini link ke kode program CobaHashSet1841720146Bagus](../../src/12_Java_API/Percobaan1/CobaHashSet1841720146Bagus.java)
+  [ini link ke kode program CobaHashSet1841720146Bagus](../../src/12_Java_API/percobaan1/CobaHashSet1841720146Bagus.java)
 
 
 # **B. Pertanyaan** 
@@ -258,7 +258,7 @@ public class CobaArrayList1841720146Bagus {
 
 ![Gambar CobaArrayList1841720146Bagus](img/b1.PNG)
 
-  [ini link ke kode program CobaArrayList1841720146Bagus](../../src/12_Java_API/Percobaan2/CobaArrayList1841720146Bagus.java)
+  [ini link ke kode program CobaArrayList1841720146Bagus](../../src/12_Java_API/percobaan2/CobaArrayList1841720146Bagus.java)
 
 
 
@@ -427,7 +427,7 @@ public class DemoHashMap1841720146Bagus {
 
 ![Gambar DemoHashMap1841720146Bagus](img/c1.PNG)
 
-  [ini link ke kode program DemoHashMap1841720146Bagus](../../src/12_Java_API/Percobaan3/DemoHashMap1841720146Bagus.java)
+  [ini link ke kode program DemoHashMap1841720146Bagus](../../src/12_Java_API/percobaan3/DemoHashMap1841720146Bagus.java)
 
 
 
@@ -677,15 +677,15 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
 
 ![Gambar InputData1841720146Bagus](img/d1.PNG)
 
-  [ini link ke kode program InputData1841720146Bagus](../../src/12_Java_API/Percobaan4/InputData1841720146Bagus.java)
+  [ini link ke kode program InputData1841720146Bagus](../../src/12_Java_API/percobaan4/InputData1841720146Bagus.java)
 
 ![Gambar Mahasiswa1841720146Bagus](img/d2.PNG)
 
-  [ini link ke kode program Mahasiswa1841720146Bagus](../../src/12_Java_API/Percobaan4/Mahasiswa1841720146Bagus.java)
+  [ini link ke kode program Mahasiswa1841720146Bagus](../../src/12_Java_API/percobaan4/Mahasiswa1841720146Bagus.java)
 
 ![Gambar TampilGui1841720146Bagus](img/d3.PNG)
 
-  [ini link ke kode program TampilGui1841720146Bagus](../../src/12_Java_API/Percobaan4/TampilGui1841720146Bagus.java)
+  [ini link ke kode program TampilGui1841720146Bagus](../../src/12_Java_API/percobaan4/TampilGui1841720146Bagus.java)
 
 
 ![Gambar success TampilGui1841720146Bagus](img/d4.PNG)
@@ -760,7 +760,7 @@ Jalankan program maka data yang sudah kita add akan tampil seperti berikut:
 
 ![Gambar FormKoneksi](img/e1.PNG)
 
-  [ini link ke kode program FormKoneksi](../../src/12_Java_API/Percobaan5/FormKoneksi.java)
+  [ini link ke kode program FormKoneksi](../../src/12_Java_API/percobaan5/FormKoneksi.java)
 
 
 5. Karena belum ada statement ambil data tabel hal tersebut di perlukan local host agar bisa terintegrasi dengan baik.
